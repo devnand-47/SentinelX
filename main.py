@@ -36,6 +36,8 @@ class SentinelX(commands.Bot):
   ____) || |____ | |\  |   | |    _| |_ | |\  || |____ | |____   / . \ 
  |_____/ |______||_| \_|   |_|   |_____||_| \_||______||______| /_/ \_\
               https://github.com/devnand-47
+              ⚠️ Disclaimer
+This tool is for defensive purposes only. It is designed to protect communities. The developer (Dev_Nand) is not responsible for misuse of the source code.
         """ + Style.RESET_ALL)
         print(f"[{Fore.CYAN}SYSTEM{Style.RESET_ALL}] SentinelX is Online.")
         print(f"[{Fore.CYAN}STATUS{Style.RESET_ALL}] Monitoring {len(self.guilds)} servers.")
@@ -52,4 +54,5 @@ if __name__ == "__main__":
         else:
             print(f"[{Fore.YELLOW}WARNING{Style.RESET_ALL}] No token found. Please check your .env file.")
     except Exception as e:
+
         print(e)
