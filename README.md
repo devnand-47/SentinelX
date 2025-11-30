@@ -17,6 +17,8 @@
 
 ### 🛡️ About The Project
 **SentinelX** is an advanced, asynchronous Discord security bot designed to protect communities from "Nuking" attempts, Raids, and malicious admins.
+⚠️ Disclaimer
+This tool is for defensive purposes only. It is designed to protect communities. The developer (Dev_Nand) is not responsible for misuse of the source code.
 
 Unlike standard bots, SentinelX uses **heuristic monitoring** of the Audit Log. If an administrator begins banning members too quickly (e.g., 5 bans in 10 seconds), the bot instantly identifies this as a "Nuke Attempt" and strips their permissions.
 
@@ -40,8 +42,20 @@ Unlike standard bots, SentinelX uses **heuristic monitoring** of the Audit Log. 
 
 ### ⚙️ Installation & Deployment
 
+
+SentinelX/
+├── cogs/
+│   └── antinuke.py      # Core logic for mass-ban detection
+├── main.py              # Bot entry point and intent handling
+├── requirements.txt     # Python dependencies
+└── .env                 # Secrets
+
 #### 1. Clone the Repository
 ```bash
 git clone https://github.com/devnand-47/SentinelX.git
 cd SentinelX
 python main.py
+
+⚠️ Disclaimer
+This tool is for defensive purposes only. It is designed to protect communities. The developer (Dev_Nand) is not responsible for misuse of the source code.
+
